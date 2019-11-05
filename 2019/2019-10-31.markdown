@@ -1,0 +1,49 @@
+Zulip, project communication, and governance (Juan)
+
+- zulip looks good, but let's wait for more feedback on the image.sc zulip
+  before publicising more broadly
+- post link to scikit-image and scikit-learn governance docs
+- Ahmet Can: stakeholders should agree on what this looks like
+
+Open dialog, file IO, napari file #616, #379, #511, #604 (Nick)
+
+- Minimal for now, add more options if people need them
+- Path -> layer name
+
+Text layer #600 (Kevin)
+
+- 3D rendering an issue
+- Juan to review
+
+Interactive Scripting #650 (AhemtCan)
+
+- pass arguments through
+- name of convenience function
+- speed of updating layer.data
+- how to append to layer.data? dask.stack?
+
+Invisible layer updates #578 (Nick, Juan)
+
+- turn as much as possible off when visible=off
+
+Labeled axes #644 (Nick)
+
+- currently broken, but it can get there
+- Talley and Nick to monitor
+
+Gamma slider #610 merged (Talley)
+
+Play button #607 (Talley)
+
+- weird issues with test timing
+- check whether 650 would help
+
+Linter pre-commit hook #638 (Talley)
+
+- Going in, should be minimal at first
+
+Remote data / compute with dask (Nick)
+
+- Nick -> link to toy example. Using dask sync primitives to synchronise viewer
+  state between a shim remote viewer and a local viewer.
+
