@@ -1,0 +1,27 @@
+# Napari developer meetings
+
+## 2020-02-06
+
+### Items from last meeting
+
+- (blank)
+
+### Agenda
+
+1. Development discussion (Juan) See [background](https://napari.zulipchat.com/#narrow/stream/215290-dev-meeting/topic/agendas/near/187330568)
+2. Pluggy / reader plugins update #908 #937 (Talley)
+3. Points refactor update #858 (Kevin)
+4. Website update #764 (Kira)
+5. Pop-up sliders #879 #904 (AhmetCan)
+6. Physical Coordinates / transforms #763, #885 (Juan)
+
+### Action items
+
+
+
+--------------
+
+At the end of the meeting:
+- [ ] Copy the contents of this document to a new file in https://github.com/napari/meeting-notes
+- [ ] Copy the Action items to Items from last meeting
+- [ ] Clear out the rest of the document for the next meeting
