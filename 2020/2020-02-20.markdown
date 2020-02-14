@@ -1,0 +1,37 @@
+# Napari developer meetings
+
+## 2020-02-20
+
+### Items from last meeting
+
+- None
+
+### Agenda
+
+
+
+### Action items
+
+
+
+--------------
+
+At the end of the meeting:
+- [ ] Copy the contents of this document to a new file in https://github.com/napari/meeting-notes
+- [ ] Copy the Action items to Items from last meeting
+- [ ] Clear out the rest of the document for the next meeting
+
+
+
+<!-- issue links -->
+[#908]: https://github.com/napari/napari/issues/908
+[#968]: https://github.com/napari/napari/issues/968
+[#900]: https://github.com/napari/napari/issues/900
+[#951]: https://github.com/napari/napari/issues/951
+[#858]: https://github.com/napari/napari/issues/858
+[#764]: https://github.com/napari/napari/issues/764
+[#879]: https://github.com/napari/napari/issues/879
+[#904]: https://github.com/napari/napari/issues/904
+[#763]: https://github.com/napari/napari/issues/763
+[#885]: https://github.com/napari/napari/issues/885
+<!-- issue links -->
