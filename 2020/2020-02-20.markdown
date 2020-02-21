@@ -19,7 +19,7 @@
 8. Physical Coordinates / transforms [#763], [#885] (Juan)
 9. quick question about complex dtype.
     - do we want `_raw_to_displayed` after we fix labels? We all agreed this was not ideal but not a blocker.
-10. labels PR: Nick will possibly take over next week!
+10. labels PR: Nick will possibly take over next week! https://github.com/napari/napari/pull/713
 
 
 ### Action items
