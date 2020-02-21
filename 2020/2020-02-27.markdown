@@ -1,0 +1,32 @@
+# Napari developer meetings
+
+## 2020-02-27
+
+### Items from last meeting
+
+- Talley will try to wrap up complex numbers before going off-grid for a bit to prepare for QI CSHL course in late March
+
+### Agenda
+
+
+
+### Action items
+
+
+
+
+--------------
+
+At the end of the meeting:
+- [ ] Copy the contents of this document to a new file in https://github.com/napari/meeting-notes
+- [ ] Copy the Action items to Items from last meeting
+- [ ] Clear out the rest of the document for the next meeting
+
+
+
+<!-- issue links -->
+[#937]: https://github.com/napari/napari/issues/937
+[#764]: https://github.com/napari/napari/issues/764
+[#763]: https://github.com/napari/napari/issues/763
+[#885]: https://github.com/napari/napari/issues/885
+<!-- issue links -->
