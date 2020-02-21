@@ -8,10 +8,23 @@
 
 ### Agenda
 
+1. Janelia image acquisition meeting update (Nick)
+    - Summary: micromanager people will pull out the C++ driver layer to be independent, could live on PyPI
+    - second phase: update the C++ API to something that is usable by both Python and Java folks
+3. Reader plugins update [#937] (Talley)
+    - Main issue: getting pluggy to return the identity of the plugin which provided a function. Small PR (to be) submitted to pluggy.
+5. magicgui update (Talley)
+    - pre-alpha, so not yet hard napari dependency, but could envision that for the future
+7. Website update [#764] (Kira)
+8. Physical Coordinates / transforms [#763], [#885] (Juan)
+9. quick question about complex dtype.
+    - do we want `_raw_to_displayed` after we fix labels? We all agreed this was not ideal but not a blocker.
+10. labels PR: Nick will possibly take over next week!
 
 
 ### Action items
 
+- Talley will try to wrap up complex numbers before going off-grid for a bit to prepare for QI CSHL course in late March
 
 
 --------------
@@ -24,14 +37,8 @@ At the end of the meeting:
 
 
 <!-- issue links -->
-[#908]: https://github.com/napari/napari/issues/908
-[#968]: https://github.com/napari/napari/issues/968
-[#900]: https://github.com/napari/napari/issues/900
-[#951]: https://github.com/napari/napari/issues/951
-[#858]: https://github.com/napari/napari/issues/858
+[#937]: https://github.com/napari/napari/issues/937
 [#764]: https://github.com/napari/napari/issues/764
-[#879]: https://github.com/napari/napari/issues/879
-[#904]: https://github.com/napari/napari/issues/904
 [#763]: https://github.com/napari/napari/issues/763
 [#885]: https://github.com/napari/napari/issues/885
 <!-- issue links -->
