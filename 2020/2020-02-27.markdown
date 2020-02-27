@@ -11,7 +11,8 @@
 
 
 ### Action items
-
+- Gen: world coords update #885, in progress branch here.
+Dicsussion of overall architecture & best practices for inserting/removing transforms
 
 
 
