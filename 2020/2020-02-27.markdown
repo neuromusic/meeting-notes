@@ -7,12 +7,22 @@
 - Talley will try to wrap up complex numbers before going off-grid for a bit to prepare for QI CSHL course in late March
 
 ### Agenda
-
-
+- Nick / Juan: [0.2.12 release](https://github.com/napari/napari/releases/tag/v0.2.12) and [napari conda-forge package](https://github.com/conda-forge/napari-feedstock).
+- Nick: napari in-person dev meeting. Monday / Tuesday April 27-28th Redwood City (near SF).
+- Gen: world coords update [#885](https://github.com/napari/napari/pull/885), in progress [branch here](https://github.com/jni/napari/pull/6).
+    - Dicsussion of overall architecture & best practices for inserting/removing transforms
+- Talley: Update on reader-io plugin [#937](https://github.com/napari/napari/pull/937).
+- Talley: Settings [#834](https://github.com/napari/napari/pull/834).
+- Shannon: Controller refactor proposal [#1006](https://github.com/napari/napari/pull/1006).
+- Nick: Interaction box [#999](https://github.com/napari/napari/pull/999).
+- Kira: Publish developer resources [#967](https://github.com/napari/napari/pull/967).
+- AhmetCan: Pop-up sliders [#904](https://github.com/napari/napari/pull/904).
 
 ### Action items
-- Gen: world coords update #885, in progress branch here.
-Dicsussion of overall architecture & best practices for inserting/removing transforms
+
+- Nick to review world coordinates [#885](https://github.com/napari/napari/pull/885), complex numbers [#838](https://github.com/napari/napari/pull/838), io-readers [#937](https://github.com/napari/napari/pull/937).
+- Loic, Talley to review controller refactor proposal [#1006](https://github.com/napari/napari/pull/1006).
+- Nick to get more info on travel for in-person dev meeting.
 
 
 
