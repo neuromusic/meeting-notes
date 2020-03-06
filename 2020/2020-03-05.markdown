@@ -7,11 +7,29 @@
 - Nick getting more info on travel for in-person dev meeting.
 
 ### Agenda
--
+- Nick: In person dev meeting / coronavirus travel update
+- Nick / Kevin: napari euro dev meeting times - 8:30-9:30am PST on Wednesdays (every other week).
+- Shannon: MVC refactor take 2 [#1020](https://github.com/napari/napari/pull/1020)
+- Nick: Mouse functions refactor [#1010](https://github.com/napari/napari/pull/1010)
+- Kevin: Points view refactor [#951](https://github.com/napari/napari/pull/951)
+- Talley: reader plugins [#937](https://github.com/napari/napari/pull/937)
+- Talley: cleanup refactor [#1014](https://github.com/napari/napari/pull/1014)
+- Genevieve: Qt docstrings [#1022](https://github.com/napari/napari/pull/1022)
+- Kira: Magicname guessing [#1008](https://github.com/napari/napari/pull/1008)
+- Nick: ScaleTranslate transform [#1018](https://github.com/napari/napari/pull/1018)
 
 ### Action items
 
--
+- Zoom link for euro dev meeting
+- Shannon look at talley's comments on 1020 and press on with extending MVC refactor to more of the image layer
+- Follow up on #955
+- Kevin thinking about points tutorial
+    - Here's that tweet: https://twitter.com/3dtrevor/status/1232686231617777665 would be good to see the same functionality with the current points data model
+- Talley to work on stacks for #937
+- Talley to get rid of Qt App, Tony to review docs, PR.
+- Nick to squash merge 1022
+- Juan to re-review magic name guessing #1008
+- Juan to re-review transforms models #1018
 
 
 --------------
