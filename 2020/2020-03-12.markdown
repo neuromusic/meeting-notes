@@ -1,0 +1,43 @@
+# Napari developer meetings
+
+## 2020-03-12
+
+### Items from last meeting
+
+
+### Agenda
+- Nick: roadmapping / upcoming releases
+- Nick: Release notes improvments [#1043](https://github.com/napari/napari/pull/1043).
+- Kira: Website update, developer resources [#967](https://github.com/napari/napari/pull/967).
+- Shannon: [#1040](https://github.com/napari/napari/pull/1040) Event handler refactor.
+- Nick: Mouse functions refactor [#1010](https://github.com/napari/napari/pull/1010), [#1033](https://github.com/napari/napari/pull/1033).
+- Kira: More mouse function refactoring / generalization [#793](https://github.com/napari/napari/pull/793).
+- Kira: Keybindings generalization [#791](https://github.com/napari/napari/pull/791).
+- Nick: Chain transforms [#1042](https://github.com/napari/napari/pull/1042) and plans for world coordinates.
+- Talley: Styles and icon distribution PR [#1037](https://github.com/napari/napari/pull/1037).
+- Talley: Plugin error messages [#1024](https://github.com/napari/napari/pull/1024).
+- Talley: General update of current plugin PRs [#935](https://github.com/napari/napari/pull/935), [#1023](https://github.com/napari/napari/pull/1023), [#1030](https://github.com/napari/napari/pull/1030) and summary [#936](https://github.com/napari/napari/pull/936).
+
+### Action items
+- Juan, Loic, Talley: To review #1040 and give refactor green light.
+- Shannon: To look at how #1040 applies to non-layer components.
+- Juan: To review #1010, #1033, #791, #1042, #1024.
+- Talley: To get #1023 and #1030 ready for review.
+- Nick: To work on roadmap for 0.3.0 - relabel 0.2.13 issues as 0.3.0 and close 0.2.13
+- Kira: To continue work on website and #967
+- Kira: To talk with Tony and Shannon about mouse bindings generalization ideas
+--------------
+
+At the end of the meeting:
+- [ ] Copy the contents of this document to a new file in https://github.com/napari/meeting-notes
+- [ ] Copy the Action items to Items from last meeting
+- [ ] Clear out the rest of the document for the next meeting
+
+
+
+<!-- issue links -->
+[#937]: https://github.com/napari/napari/issues/937
+[#764]: https://github.com/napari/napari/issues/764
+[#763]: https://github.com/napari/napari/issues/763
+[#885]: https://github.com/napari/napari/issues/885
+<!-- issue links -->
