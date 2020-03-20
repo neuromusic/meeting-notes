@@ -1,0 +1,59 @@
+# Napari developer meetings
+
+## 2020-03-19
+
+### Action items from last meeting
+- Juan, Loic, Talley: To review #1040 and give refactor green light.
+- Shannon: To look at how #1040 applies to non-layer components.
+- Juan: To review #1010, #1033, #791, #1042, #1024.
+- Talley: To get #1023 and #1030 ready for review.
+- Nick: To work on roadmap for 0.3.0 - relabel 0.2.13 issues as 0.3.0 and close 0.2.13
+- Kira: To continue work on website and #967
+- Kira: To talk with Tony and Shannon about mouse bindings generalization ideas
+
+
+### Agenda
+- Nick: Update from Kevin on points layer - default properties, [#930](https://github.com/napari/napari/issues/930#issuecomment-601022147).
+- Talley: Update on current plugin PRs [#935](https://github.com/napari/napari/pull/935), [#1023](https://github.com/napari/napari/pull/1023), [#1030](https://github.com/napari/napari/pull/1030) and summary [#936](https://github.com/napari/napari/pull/936).
+- Shannon: Event Handler refactor [#1040](https://github.com/napari/napari/pull/1040).
+- Talley: Layer Groups [#970](https://github.com/napari/napari/issue/970).
+- Nick: Mouse bindings refactor [#1010](https://github.com/napari/napari/pull/1010), [#1033](https://github.com/napari/napari/pull/1033), [#1051](https://github.com/napari/napari/pull/1051).
+- Kira: Mouse bindings generalization [#1048](https://github.com/napari/napari/issue/1048).
+- Nick: Some renaming [#1047](https://github.com/napari/napari/pull/1047), [#1046](https://github.com/napari/napari/pull/1046).
+- Juan: PyQt5 / PySide2 install [#1059](https://github.com/napari/napari/pull/1059).
+- Juan: Remove skimage dependency [#1061](https://github.com/napari/napari/pull/1061).
+- Nick: Chain transforms [#1042](https://github.com/napari/napari/pull/1042).
+- Talley: Contrast and gamma calculations in shader [#1056](https://github.com/napari/napari/pull/1056).
+- Nick: non-coding biologist users.
+- Nick: bundled apps for 0.3.0 release? [#496](https://github.com/napari/napari/pull/496).
+
+### Action items
+- Juan: to review points issue #930
+    - Should be able to add empty points layer and still have access to properties
+- Juan: to review #1023 plugin sorter
+- Talley: to drop "only with errors button"
+- Talley: Create issue for general, unified error console rather than just plugins (or link to existing PR: #794)
+- Juan: thorough review of #1040
+- Shannon: minimal changes to #1040 so that it is runnable, minimal example refactor of the dims component
+- Juan: re-review #1010
+- Nick: comments in #1047: annotate that simply importing keybindings files actually executes decorators that add keybindings to the viewer.
+- Genevieve to update PyQt5/napari install instructions. Note that order of the call matters.
+- Juan: review #1061. Generally ok with the idea
+- Nick: clean up #1042, then rebase/discuss #1053 including renaming of corner_pixels/top_left
+- Talley: Make issue for installing IO plugins from a napari binary bundle.
+- Genevieve: Make issue for IO *writing* plugins
+--------------
+
+At the end of the meeting:
+- [ ] Copy the contents of this document to a new file in https://github.com/napari/meeting-notes
+- [ ] Copy the Action items to Items from last meeting
+- [ ] Clear out the rest of the document for the next meeting
+
+
+
+<!-- issue links -->
+[#937]: https://github.com/napari/napari/issues/937
+[#764]: https://github.com/napari/napari/issues/764
+[#763]: https://github.com/napari/napari/issues/763
+[#885]: https://github.com/napari/napari/issues/885
+<!-- issue links -->
