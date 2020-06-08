@@ -1,0 +1,36 @@
+# Napari developer meetings
+
+## 2020-06-04
+
+### Action items
+- [ ] Juan: review [#1183](https://github.com/napari/napari/pull/1183)
+- [x] Juan/Nick: review [1299](https://github.com/napari/napari/pull/1299)
+- [ ] Juan: Add PRs for his pet peeves. =P
+
+
+### Agenda
+- Nick: Neubias Training Academy
+- Justine: CZI sprint update
+- Kira: Event handler/ MVC #1040, #1325
+- Gen: Layer Groups #1089
+- Nick: World Coordinates #1276
+- Ziyang: Labels Custom Colormaps #1339
+- Phil: Perf Monitoring #1262
+- Phil: New Rendering Doc #1328
+- Phil: Chunk Renderer plans #1320
+- Talley: Layer typing #1097
+- Talley: Persistent Settings #1183
+- Talley: Briefcase Bundled Apps #1289
+
+
+### New action items
+- [ ] Kevin/Juan/Nick: review custom colormaps for labels, point to color modes in points
+- [ ] Allen/Talley review #1262 including test use
+- [ ] Allen/Nick ping Jamie from Allen Institute + Jeremy M-S
+
+
+--------------
+
+At the end of the meeting:
+- Copy the contents of this document to a new file in https://github.com/napari/meeting-notes
+- Clear out the Agenda from last meeting
