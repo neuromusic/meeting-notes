@@ -1,0 +1,37 @@
+# napari eurasia meeting 2021-07-28
+
+Meet at https://gather.town/app/nq1oQrNJ1UIQ5t01/imagesc-island in the napari hut
+
+click on a participant in the participants list to find your way to them.
+
+## previous meeting notes
+
+https://github.com/napari/meeting-notes/blob/master/2021/2021-06-30%20eurasia.md
+
+## action items from last meeting
+
+
+## Agenda
+
+- informal discussion on packaging. 
+    - Robert has had issues with PyOpenCL and made [napari-pyclesperanto-assistant suggest](https://www.napari-hub.org/plugins/napari-pyclesperanto-assistant#installation) to download Christoph Golke's build via napari installer. That could be simplified. 
+    - Grzegorz: use Windows specific dependency listing to depend on specific wheel for windows. Example: `dask ; sys_platform == 'linux'`
+    - Robert has had issues with breaking conda environments and thus, worked on making his plugin installations work with pip only; actually via the napari-app only.
+- Grzegorz: measurement plugin ported from PartSeg to a napari plugin! 🎉
+    - Can't make labels layer selection *non*optional... Which is weird?
+    - Maybe raise issue in magicgui?
+    - link: https://github.com/4DNucleome/PartSeg/tree/feature/napari_measurement_wigets (will be in next PartSeg release)
+- Juan: reminder about napari plugin accelerator grants, deadline in ~40h! https://chanzuckerberg.com/rfa/napari-plugin-accelerator-grants/
+- Juan: working groups.
+    - Robert would like to join the bundled app working group.
+- Short informal discussion about naming of operations `expand_labels`, `dilate_labels`, `erode_labels` and `shrink_labels`
+- Alister: how to create a plugin that "activates" some behaviour (showing pixel values as text on top of image) but doesn't require any more interactivity
+
+Notes
+-----
+
+
+Action items
+------------
+
+- [ ] 
