@@ -1,0 +1,46 @@
+## 2021/08/26
+
+### Agenda
+
+- Layer data/slicing/clipping planes.
+- Andy (if time): early/WIP code review: https://github.com/napari/napari/compare/master...andy-sweet:property-map-text?expand=1 
+
+### Notes
+
+- Clipping planes
+    - Geometrical masks that can be easily shared between layers
+    - E.g. clip a volume by a plane, then display an average plane across some of the slices parallel to it.
+    - Could be defined at the scene level, and then layers could subscribe to it.
+- Layer groups
+    - Make it easier to subscribe a number of related layers to the same clipping plane
+    - Other groups could be points/vectors to represent physical particles, and would also be clipped.
+- Make the clipping plane a layer?
+    - Kind of like a mask layer.
+    - Maybe works better when it shares sampling information with another layer.
+    - Also like Photoshop's adjustment layers?
+- Can do a few different clips.
+    - Can clip visualization only.
+    - Could clip the data.
+    - Axis-aligned clipping.
+- Supporting n-dimensional (n > 3) can get tricky
+    - Because we're unsure how to correspond dimensions in the visualization to dimensions in the data?
+    - Clipping planes are currently defined in data coordinates (i.e. which works when they are aligned). World coordinates are used for 2+3D, and uses same logic as napari viewer. 
+- Usage
+    - We want to apply the clipping plane for visualization, but also to access data (e.g. to compute an average over those data).
+- If using an adjustment layer, how does the rendering pipeline look?
+    - E.g. an adjustment layer is a fully fledged layer that can be rendered. It takes care of how its children are clipped + rendered.
+    - There is a composite node in vispy, which we could use. This was done in a current PR.
+
+### Action items
+
+- Generalized PR
+    - WIP.
+    - Clipping planes for volumes is already merged.
+    - Ready for first-pass review.
+    - One confusing thing: different vispy layers have seemingly different implementations. This may be early work that hasn't been changed in some time (and may be in need of refactoring)
+    - Kevin, Alister, and maybe Nathan to review.
+- Fuse Layer group PR and n-dimensional clipping PR?
+    - Or at least coordinate those to get both in.
+    - Probably longer term
+- Discuss coordinate systems
+    - Maybe next meeting.
