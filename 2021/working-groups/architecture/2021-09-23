@@ -1,0 +1,39 @@
+## 2021/09/23
+
+### Agenda
+
+- Andy: added a second meeting on Tuesday at 23:00 UTC.
+- Greg: extent of layers.
+    - center of (0, 0) index pixel corresponds to (0, 0) world coordinate (assuming no translate/offset)
+- Grzegorz: physical units (mm, um, s)
+    - what to do with layers without units
+    - possibly use pint as a dependency
+    - need logic of how different dimensions/types are represented in the viewer
+        - Similar to layer axis labels
+        - https://github.com/napari/napari/issues/1904
+- Andy: some updates on textmanager PR, and feedback from Juan.
+
+Dimensions and axes
+- names/symantic names at layer level
+    - view cares about specific ones
+- categories of dimensions
+    - space dims are vis by default
+    - time mapped to a slider by default
+    - color/channels get to handled as color by default
+- scales
+    - "world space" physical units
+        - transforms: layer -> world -> view
+        - might be used to defn fixed steps
+            - import a 0.5 µm/px and 1 µm/px, what happens when you step in z?
+
+Origin of pixels and scale
+- one choice is to make it scale invariant
+    - imagine importing image layers w different scales
+- but what happens when you add a point/label to a pixel, it
+    should get centered on the pixel naturally?
+- what about shapes etc
+
+### Action items
+
+- Grzegorz: add some relevant examples to issue [#906](https://github.com/napari/napari/issues/906), and mention related work.
+- Andy/Nathan: consider starting/reassigning work related to axis labels.
