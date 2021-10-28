@@ -1,0 +1,29 @@
+# Napari euro developer meetings
+
+## 2021-10-27
+
+### Action items
+
+### Agenda
+
+- Introductions (if any new friendly faces are present)
+- Alister: [napari-tomoslice](https://www.napari-hub.org/plugins/napari-tomoslice) demo
+- Alister: [3D interactivity](https://github.com/napari/napari/pull/3205) update
+- Robert: [3D interactivity update](https://twitter.com/haesleinhuepf/status/1453298169413095437?s=20)
+  - If anybody has a good idea how to get rid of [this QTimer](https://github.com/haesleinhuepf/napari-skimage-regionprops/blob/d8cf8db91ca2e838e43d20660dcf7e2b006d3528/napari_skimage_regionprops/_regionprops.py#L117), hints are very welcome!  
+- Lorenzo: [Volume/plane centering](https://github.com/vispy/vispy/pull/2239)
+- Grzegorz [Plugin data storage](https://github.com/napari/napari/issues/3528)(https://github.com/napari/napari/issues/3528)
+- Kevin/Alister: 3D point selection progress
+- Jesse, deeplabcut napari plugin demo
+- Free discussion
+
+
+### New action items
+
+
+
+------
+
+At the end of the meeting:
+- Copy the contents of this document to a new file in https://github.com/napari/meeting-notes
+- Clear out the Agenda from last meeting
