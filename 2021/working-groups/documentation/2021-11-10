@@ -1,0 +1,46 @@
+# napari documentation working group
+
+Zoom meeting: https://czi.zoom.us/j/96831524360 (even if it says that it's the one for september 15th.)
+Link to the HackMD: https://hackmd.io/10DKrIMhREmk9sa_QRirlg
+
+## 2021-11-03
+
+### Last week's action items
+
+- [ ] Justin to export the mural board and put a copy with the meeting notes
+- [x] Justin to schedule design bugs time into a sprint sometime in December/January
+- [x] Gen should review some of Draga's PRs for content
+- [ ] Melissa (really for week of 8th/9th November) Reorganization PRs. Melissa will check with Jeremy & Kira, etc. about how often docs build.
+    - First part here: https://github.com/napari/napari/pull/3594 and https://github.com/napari/napari.github.io/pull/284
+- [ ] Melissa (really for week of 8th/9th November) to think about how to expose or integrate napari/examples data on the website (and possibly if there's a better way to integrate workshop content, eg: Nick's NEUBIAS notebooks)
+- [x] [name=melissa] Create a plan with PR merging strategy for reorganization of docs
+    - Partly done. [Some notes here](https://hackmd.io/@melissawm/HJArEXPIY)
+    - Current plan: https://github.com/napari/napari.github.io/pull/176
+- [x] [name=Draga] make draft PR with proposed changes and updated contributors' docs together in napari.github.io so it can be previewed
+
+
+### Agenda
+- [x] [name=Draga] New plan for docs for contributors - https://github.com/napari/napari.github.io/pull/283
+    - One mostly blank template document (Gen still thinks it would be good to include the screenshot/cell hiding/etc. examples in the template. That would allow us to cut down on one document)
+    - The "index" becomes the step by step guide that tells users to download template, prepare their document, etc. (Shift explanation about diataxis categorization into a separate sub-document)
+    - We keep the "git-free" document
+- [x] [name=Draga] Discuss preferred workflow for contributors to preview their documents before submission
+    - [Related issue](https://github.com/napari/napari/issues/3572) 
+    - PR preview should be immediate priority after local preview
+    - Netlify is an option but would likely be better off relying on their free tiers given the internal processes - would need to look into this
+- [ ] [name=Draga] Download and/or GitHub JupyterBook buttons 
+    - [Related issue](https://github.com/napari/napari.github.io/issues/279)
+- [x] [name=Justin] Update on napari hub team roadmapping
+    - priorities for H1 incl bug fixes & design improvements, sample data hosting+api, home page refresh, automated screenshot rendering
+
+
+### Next week's action items
+- [ ] [name=Justin] to export the mural board and put a copy with the meeting notes
+- [ ] [name=Justin] to invite Kira and Jeremy to the next docs meeting
+- [ ] [name=Melissa] to get the main reorganization in place
+
+------
+
+At the end of the meeting:
+- Copy the contents of this document to a new file in https://github.com/napari/meeting-notes/new/main/2021/working-groups/documentation
+- Clear out the Agenda from last meeting
